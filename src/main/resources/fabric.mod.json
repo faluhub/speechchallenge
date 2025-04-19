@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "speechchallenge",
+  "version": "${version}",
+  "name": "SpeechChallenge",
+  "description": "Die when you say the letter E",
+  "authors": ["falu"],
+  "contact": {
+    "homepage": "https://github.com/faluhub"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["me.falu.speechchallenge.SpeechChallengeClient"],
+    "main": ["me.falu.speechchallenge.SpeechChallengeServer"]
+  },
+  "mixins": ["speechchallenge.mixins.json"],
+  "depends": {
+    "minecraft": "1.20.2"
+  }
+}

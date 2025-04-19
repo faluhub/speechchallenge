@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.falu.speechchallenge.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MinecraftClientMixin",
+    "SoundOptionsScreenMixin"
+  ],
+  "mixins": [
+    "CommandManagerMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
